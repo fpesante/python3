@@ -1,0 +1,43 @@
+########################
+# LA FELICISIMA ARMADA #
+########################
+
+#######################
+# VARIABLES & STRINGS #
+#######################
+
+print("L’analyse des donnees ; before and around")
+
+msg = "Analisis de datos"
+print(msg)
+
+primer_nombre = "Antoine"
+apellido = "Falguerolles"
+nombre_completo = primer_nombre + " " + apellido
+print(nombre_completo)
+
+########
+# LIST #
+########
+
+embarcaciones = ["Escuadra de Galeones de Portugal", "Armada de Viscaya", "Galeones de la Armada de Castilla"]
+primera_embarcacion = embarcaciones[0]
+ultima_embarcacion = embarcaciones[-1]
+
+#looping
+for embarcacion in embarcaciones:
+    print(embarcacion)
+    
+#adding items
+embarcaciones = []
+embarcaciones.append("Armada de Castilla")
+embarcaciones.append("Armada de Andalucia")
+embarcaciones.append("Armada de Guipuzcoa")
+
+#numerical list
+s
+
+
+#datacamp funcionts and packages
+help(str)
+help(sorted)
